@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+    <div class="form">
+        <form action="index.html" autocomplete="off" method="post" >
+            
+            <h1>Formulário</h1>
+
+            
+                <fieldset class="dados_pessoais"> 
+                    <legend>Dados pessoais</legend>
+                    
+                    <div class="dad_p">
+                        <label for="inome">Nome:</label>
+                        <input type="text" name="nome" id="inome" required>
+                    </div>
+
+                    <div class="dad_p">
+                        <label for="iendereco">Endereço:</label>
+                        <input type="text" name="endereco" id="iendereco" required>
+                    </div>
+
+                    <div class="dad_p">
+                        <label for="icidade">Cidade:</label>
+                        <input type="text" name="cidade" id="icidade" required>
+                    </div>
+
+                    <div class="dad_p">
+                        <label for="iestado">Estado:</label>
+                        <select name="estado" id="iestado">
+                            <option value="1">São Paulo</option>
+                            <option value="2">Ceará</option>
+                            <option value="3">Pernanbuco</option>
+                            <option value="4">Rio de Janeiro</option>
+                        </select>
+                    </div>
+                </fieldset>
+             
+                <fieldset class="dados_prof">
+        
+                    <legend>Dados profisionais</legend>
+                
+                      <p>Natureza do cargo</p>
+                        <div class="select-cargo">
+                            <label for="radio">
+                                <input type="radio" name="cargo" id="radio" required> Gerência
+                                <input type="radio" name="cargo" id="radio" required> Financeiro
+                                <input type="radio" name="cargo" id="radio" required> Recepção
+                                <input type="radio" name="cargo" id="radio" required> Administração
+                                <input type="radio" name="cargo" id="radio" required> Jurídico
+                            </label>
+                        </div>   
+                      <p>Área de interesse</p>
+                        <div class="select-area">
+                            <label for="checkbox" >
+                                <input type="checkbox" name="area" id="checkbox"> Computação
+                                <input type="checkbox" name="area" id="checkbox"> Biologia
+                                <input type="checkbox" name="area" id="checkbox"> Meio ambiente
+                                <input type="checkbox" name="area" id="checkbox"> Engenharia
+                                <input type="checkbox" name="area" id="checkbox"> História
+                            </label>
+                        </div>
+
+                        <div class="text-area">
+                            <label for="imin-c">Mini-cirriculo:</label>
+                            <textarea name="min-c" id="imin-c" cols="45"  rows="7"></textarea>
+                        </div>       
+                </fieldset>
+               
+            <input type="submit" value="Enviar" class="button"">
+            <input type="reset" value="Limpar" class="button">
+        </form>
+    </div>
+   
+</body>
+
+</html>
+
+
+            
+            
+            
+                        
+                    
+                    
+            
+                
+            
+
+
+
+
+
+
+
+
+
+
+
